@@ -65,5 +65,6 @@ const gaps = hibbardGaps(100)
 const array = generateRandomArray(100, 1, 1000);
 console.log("Исходный массив:", array);
 sortedarray = shellSort(array, gaps)
+console.log("gaps:", gaps)
 console.log("Отсортированный:", sortedarray);
 if (issorted(sortedarray)==1){console.log("массив отсортирован")}
