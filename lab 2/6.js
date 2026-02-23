@@ -60,7 +60,7 @@ function issorted (array) {
     }
     return 1
 }
-n=10000
+n=1000
 const gaps = hibbardGaps(n)
 const array = generateRandomArray(n, 1, 10000);
 console.log("Исходный массив:", array);
